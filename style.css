@@ -34,6 +34,14 @@ p{
 
 a{
     font-family: 'Lexend Deca', sans-serif;
+    display: block;
+    text-decoration: none;
+    border: 2px solid var(--gray);
+    width: fit-content;
+    font-size: 00.9375rem;
+    padding: 0.75rem 2.5rem;
+    border-radius: 1.5625rem;
+    background: var(--gray);
 }
 
 section{
@@ -50,4 +58,8 @@ section{
 
 .luxuosos{
     background: var(--dark-cyan);
+}
+
+.sedans a{
+    color: var(--orange);
 }
